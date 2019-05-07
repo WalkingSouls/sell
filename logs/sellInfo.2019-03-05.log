@@ -1,0 +1,667 @@
+2019-03-05 11:39:19,975 - Starting OrderServiceImplTest on KOTIN with PID 5580 (started by Administrator in E:\workspace\idea\sell)
+2019-03-05 11:39:19,975 - No active profile set, falling back to default profiles: default
+2019-03-05 11:39:20,143 - Refreshing org.springframework.web.context.support.GenericWebApplicationContext@5e2c3d18: startup date [Tue Mar 05 11:39:20 CST 2019]; root of context hierarchy
+2019-03-05 11:39:21,446 - HV000001: Hibernate Validator 5.3.5.Final
+2019-03-05 11:39:24,057 - Building JPA container EntityManagerFactory for persistence unit 'default'
+2019-03-05 11:39:24,143 - HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+2019-03-05 11:39:24,714 - HHH000412: Hibernate Core {5.0.12.Final}
+2019-03-05 11:39:24,716 - HHH000206: hibernate.properties not found
+2019-03-05 11:39:24,717 - HHH000021: Bytecode provider name : javassist
+2019-03-05 11:39:24,898 - HCANN000001: Hibernate Commons Annotations {5.0.1.Final}
+2019-03-05 11:39:25,283 - HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2019-03-05 11:39:27,141 - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2019-03-05 11:39:28,400 - Looking for @ControllerAdvice: org.springframework.web.context.support.GenericWebApplicationContext@5e2c3d18: startup date [Tue Mar 05 11:39:20 CST 2019]; root of context hierarchy
+2019-03-05 11:39:28,484 - Mapped "{[/buyer/product/list]}" onto public com.imooc.sell.vo.ResultVO com.imooc.sell.controller.BuyerProductController.list()
+2019-03-05 11:39:28,486 - Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+2019-03-05 11:39:28,487 - Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+2019-03-05 11:39:28,505 - Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2019-03-05 11:39:28,505 - Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2019-03-05 11:39:28,544 - Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2019-03-05 11:39:28,774 - Started OrderServiceImplTest in 9.567 seconds (JVM running for 11.259)
+2019-03-05 11:39:29,063 - HHH000397: Using ASTQueryTranslatorFactory
+2019-03-05 11:39:29,430 - Closing org.springframework.web.context.support.GenericWebApplicationContext@5e2c3d18: startup date [Tue Mar 05 11:39:20 CST 2019]; root of context hierarchy
+2019-03-05 11:39:29,436 - Closing JPA EntityManagerFactory for persistence unit 'default'
+2019-03-05 11:41:34,656 - Starting OrderServiceImplTest on KOTIN with PID 10288 (started by Administrator in E:\workspace\idea\sell)
+2019-03-05 11:41:34,657 - No active profile set, falling back to default profiles: default
+2019-03-05 11:41:34,683 - Refreshing org.springframework.web.context.support.GenericWebApplicationContext@78fb9a67: startup date [Tue Mar 05 11:41:34 CST 2019]; root of context hierarchy
+2019-03-05 11:41:34,949 - HV000001: Hibernate Validator 5.3.5.Final
+2019-03-05 11:41:36,333 - Building JPA container EntityManagerFactory for persistence unit 'default'
+2019-03-05 11:41:36,346 - HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+2019-03-05 11:41:36,406 - HHH000412: Hibernate Core {5.0.12.Final}
+2019-03-05 11:41:36,407 - HHH000206: hibernate.properties not found
+2019-03-05 11:41:36,408 - HHH000021: Bytecode provider name : javassist
+2019-03-05 11:41:36,445 - HCANN000001: Hibernate Commons Annotations {5.0.1.Final}
+2019-03-05 11:41:36,563 - HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2019-03-05 11:41:37,194 - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2019-03-05 11:41:37,977 - Looking for @ControllerAdvice: org.springframework.web.context.support.GenericWebApplicationContext@78fb9a67: startup date [Tue Mar 05 11:41:34 CST 2019]; root of context hierarchy
+2019-03-05 11:41:38,047 - Mapped "{[/buyer/product/list]}" onto public com.imooc.sell.vo.ResultVO com.imooc.sell.controller.BuyerProductController.list()
+2019-03-05 11:41:38,049 - Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+2019-03-05 11:41:38,049 - Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+2019-03-05 11:41:38,074 - Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2019-03-05 11:41:38,074 - Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2019-03-05 11:41:38,109 - Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2019-03-05 11:41:38,382 - Started OrderServiceImplTest in 4.085 seconds (JVM running for 5.343)
+2019-03-05 11:41:38,507 - HHH000397: Using ASTQueryTranslatorFactory
+2019-03-05 11:43:13,398 - Starting OrderServiceImplTest on KOTIN with PID 11416 (started by Administrator in E:\workspace\idea\sell)
+2019-03-05 11:43:13,399 - No active profile set, falling back to default profiles: default
+2019-03-05 11:43:13,430 - Refreshing org.springframework.web.context.support.GenericWebApplicationContext@5e2c3d18: startup date [Tue Mar 05 11:43:13 CST 2019]; root of context hierarchy
+2019-03-05 11:43:13,670 - HV000001: Hibernate Validator 5.3.5.Final
+2019-03-05 11:43:14,925 - Building JPA container EntityManagerFactory for persistence unit 'default'
+2019-03-05 11:43:14,951 - HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+2019-03-05 11:43:15,008 - HHH000412: Hibernate Core {5.0.12.Final}
+2019-03-05 11:43:15,010 - HHH000206: hibernate.properties not found
+2019-03-05 11:43:15,011 - HHH000021: Bytecode provider name : javassist
+2019-03-05 11:43:15,050 - HCANN000001: Hibernate Commons Annotations {5.0.1.Final}
+2019-03-05 11:43:15,171 - HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2019-03-05 11:43:15,723 - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2019-03-05 11:43:16,372 - Looking for @ControllerAdvice: org.springframework.web.context.support.GenericWebApplicationContext@5e2c3d18: startup date [Tue Mar 05 11:43:13 CST 2019]; root of context hierarchy
+2019-03-05 11:43:16,435 - Mapped "{[/buyer/product/list]}" onto public com.imooc.sell.vo.ResultVO com.imooc.sell.controller.BuyerProductController.list()
+2019-03-05 11:43:16,436 - Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+2019-03-05 11:43:16,436 - Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+2019-03-05 11:43:16,461 - Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2019-03-05 11:43:16,461 - Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2019-03-05 11:43:16,491 - Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2019-03-05 11:43:16,671 - Started OrderServiceImplTest in 3.668 seconds (JVM running for 4.21)
+2019-03-05 11:43:16,771 - HHH000397: Using ASTQueryTranslatorFactory
+2019-03-05 11:43:16,898 - Closing org.springframework.web.context.support.GenericWebApplicationContext@5e2c3d18: startup date [Tue Mar 05 11:43:13 CST 2019]; root of context hierarchy
+2019-03-05 11:43:16,900 - Closing JPA EntityManagerFactory for persistence unit 'default'
+2019-03-05 11:43:17,752 - Closing org.springframework.web.context.support.GenericWebApplicationContext@78fb9a67: startup date [Tue Mar 05 11:41:34 CST 2019]; root of context hierarchy
+2019-03-05 11:43:17,756 - Closing JPA EntityManagerFactory for persistence unit 'default'
+2019-03-05 11:43:33,591 - Starting OrderServiceImplTest on KOTIN with PID 2856 (started by Administrator in E:\workspace\idea\sell)
+2019-03-05 11:43:33,592 - No active profile set, falling back to default profiles: default
+2019-03-05 11:43:33,616 - Refreshing org.springframework.web.context.support.GenericWebApplicationContext@5e2c3d18: startup date [Tue Mar 05 11:43:33 CST 2019]; root of context hierarchy
+2019-03-05 11:43:33,903 - HV000001: Hibernate Validator 5.3.5.Final
+2019-03-05 11:43:35,060 - Building JPA container EntityManagerFactory for persistence unit 'default'
+2019-03-05 11:43:35,080 - HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+2019-03-05 11:43:35,134 - HHH000412: Hibernate Core {5.0.12.Final}
+2019-03-05 11:43:35,135 - HHH000206: hibernate.properties not found
+2019-03-05 11:43:35,136 - HHH000021: Bytecode provider name : javassist
+2019-03-05 11:43:35,169 - HCANN000001: Hibernate Commons Annotations {5.0.1.Final}
+2019-03-05 11:43:35,264 - HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2019-03-05 11:43:35,824 - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2019-03-05 11:43:36,467 - Looking for @ControllerAdvice: org.springframework.web.context.support.GenericWebApplicationContext@5e2c3d18: startup date [Tue Mar 05 11:43:33 CST 2019]; root of context hierarchy
+2019-03-05 11:43:36,524 - Mapped "{[/buyer/product/list]}" onto public com.imooc.sell.vo.ResultVO com.imooc.sell.controller.BuyerProductController.list()
+2019-03-05 11:43:36,526 - Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+2019-03-05 11:43:36,526 - Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+2019-03-05 11:43:36,546 - Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2019-03-05 11:43:36,547 - Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2019-03-05 11:43:36,578 - Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2019-03-05 11:43:36,762 - Started OrderServiceImplTest in 3.546 seconds (JVM running for 4.079)
+2019-03-05 11:43:36,866 - HHH000397: Using ASTQueryTranslatorFactory
+2019-03-05 11:43:36,995 - Closing org.springframework.web.context.support.GenericWebApplicationContext@5e2c3d18: startup date [Tue Mar 05 11:43:33 CST 2019]; root of context hierarchy
+2019-03-05 11:43:36,998 - Closing JPA EntityManagerFactory for persistence unit 'default'
+2019-03-05 11:43:47,809 - Starting OrderServiceImplTest on KOTIN with PID 11044 (started by Administrator in E:\workspace\idea\sell)
+2019-03-05 11:43:47,810 - No active profile set, falling back to default profiles: default
+2019-03-05 11:43:47,836 - Refreshing org.springframework.web.context.support.GenericWebApplicationContext@5e2c3d18: startup date [Tue Mar 05 11:43:47 CST 2019]; root of context hierarchy
+2019-03-05 11:43:48,137 - HV000001: Hibernate Validator 5.3.5.Final
+2019-03-05 11:43:49,307 - Building JPA container EntityManagerFactory for persistence unit 'default'
+2019-03-05 11:43:49,319 - HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+2019-03-05 11:43:49,384 - HHH000412: Hibernate Core {5.0.12.Final}
+2019-03-05 11:43:49,385 - HHH000206: hibernate.properties not found
+2019-03-05 11:43:49,386 - HHH000021: Bytecode provider name : javassist
+2019-03-05 11:43:49,419 - HCANN000001: Hibernate Commons Annotations {5.0.1.Final}
+2019-03-05 11:43:49,513 - HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2019-03-05 11:43:50,044 - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2019-03-05 11:43:50,657 - Looking for @ControllerAdvice: org.springframework.web.context.support.GenericWebApplicationContext@5e2c3d18: startup date [Tue Mar 05 11:43:47 CST 2019]; root of context hierarchy
+2019-03-05 11:43:50,712 - Mapped "{[/buyer/product/list]}" onto public com.imooc.sell.vo.ResultVO com.imooc.sell.controller.BuyerProductController.list()
+2019-03-05 11:43:50,714 - Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+2019-03-05 11:43:50,714 - Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+2019-03-05 11:43:50,731 - Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2019-03-05 11:43:50,731 - Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2019-03-05 11:43:50,757 - Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2019-03-05 11:43:50,925 - Started OrderServiceImplTest in 3.504 seconds (JVM running for 4.04)
+2019-03-05 11:43:51,023 - HHH000397: Using ASTQueryTranslatorFactory
+2019-03-05 11:43:51,146 - Closing org.springframework.web.context.support.GenericWebApplicationContext@5e2c3d18: startup date [Tue Mar 05 11:43:47 CST 2019]; root of context hierarchy
+2019-03-05 11:43:51,147 - Closing JPA EntityManagerFactory for persistence unit 'default'
+2019-03-05 11:43:59,449 - Starting OrderServiceImplTest on KOTIN with PID 15308 (started by Administrator in E:\workspace\idea\sell)
+2019-03-05 11:43:59,450 - No active profile set, falling back to default profiles: default
+2019-03-05 11:43:59,498 - Refreshing org.springframework.web.context.support.GenericWebApplicationContext@5e2c3d18: startup date [Tue Mar 05 11:43:59 CST 2019]; root of context hierarchy
+2019-03-05 11:43:59,934 - HV000001: Hibernate Validator 5.3.5.Final
+2019-03-05 11:44:01,210 - Building JPA container EntityManagerFactory for persistence unit 'default'
+2019-03-05 11:44:01,224 - HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+2019-03-05 11:44:01,284 - HHH000412: Hibernate Core {5.0.12.Final}
+2019-03-05 11:44:01,285 - HHH000206: hibernate.properties not found
+2019-03-05 11:44:01,286 - HHH000021: Bytecode provider name : javassist
+2019-03-05 11:44:01,319 - HCANN000001: Hibernate Commons Annotations {5.0.1.Final}
+2019-03-05 11:44:01,415 - HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2019-03-05 11:44:01,947 - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2019-03-05 11:44:02,564 - Looking for @ControllerAdvice: org.springframework.web.context.support.GenericWebApplicationContext@5e2c3d18: startup date [Tue Mar 05 11:43:59 CST 2019]; root of context hierarchy
+2019-03-05 11:44:02,620 - Mapped "{[/buyer/product/list]}" onto public com.imooc.sell.vo.ResultVO com.imooc.sell.controller.BuyerProductController.list()
+2019-03-05 11:44:02,622 - Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+2019-03-05 11:44:02,622 - Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+2019-03-05 11:44:02,640 - Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2019-03-05 11:44:02,640 - Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2019-03-05 11:44:02,670 - Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2019-03-05 11:44:02,847 - Started OrderServiceImplTest in 3.905 seconds (JVM running for 4.473)
+2019-03-05 11:44:02,949 - HHH000397: Using ASTQueryTranslatorFactory
+2019-03-05 11:44:03,042 - Closing org.springframework.web.context.support.GenericWebApplicationContext@5e2c3d18: startup date [Tue Mar 05 11:43:59 CST 2019]; root of context hierarchy
+2019-03-05 11:44:03,044 - Closing JPA EntityManagerFactory for persistence unit 'default'
+2019-03-05 11:44:30,114 - Starting OrderServiceImplTest on KOTIN with PID 8868 (started by Administrator in E:\workspace\idea\sell)
+2019-03-05 11:44:30,115 - No active profile set, falling back to default profiles: default
+2019-03-05 11:44:30,151 - Refreshing org.springframework.web.context.support.GenericWebApplicationContext@5e2c3d18: startup date [Tue Mar 05 11:44:30 CST 2019]; root of context hierarchy
+2019-03-05 11:44:30,445 - HV000001: Hibernate Validator 5.3.5.Final
+2019-03-05 11:44:31,683 - Building JPA container EntityManagerFactory for persistence unit 'default'
+2019-03-05 11:44:31,704 - HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+2019-03-05 11:44:31,765 - HHH000412: Hibernate Core {5.0.12.Final}
+2019-03-05 11:44:31,766 - HHH000206: hibernate.properties not found
+2019-03-05 11:44:31,767 - HHH000021: Bytecode provider name : javassist
+2019-03-05 11:44:31,802 - HCANN000001: Hibernate Commons Annotations {5.0.1.Final}
+2019-03-05 11:44:31,899 - HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2019-03-05 11:44:32,426 - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2019-03-05 11:44:33,035 - Looking for @ControllerAdvice: org.springframework.web.context.support.GenericWebApplicationContext@5e2c3d18: startup date [Tue Mar 05 11:44:30 CST 2019]; root of context hierarchy
+2019-03-05 11:44:33,091 - Mapped "{[/buyer/product/list]}" onto public com.imooc.sell.vo.ResultVO com.imooc.sell.controller.BuyerProductController.list()
+2019-03-05 11:44:33,093 - Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+2019-03-05 11:44:33,093 - Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+2019-03-05 11:44:33,114 - Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2019-03-05 11:44:33,114 - Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2019-03-05 11:44:33,140 - Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2019-03-05 11:44:33,310 - Started OrderServiceImplTest in 3.593 seconds (JVM running for 4.118)
+2019-03-05 11:44:33,405 - HHH000397: Using ASTQueryTranslatorFactory
+2019-03-05 11:44:33,536 - Closing org.springframework.web.context.support.GenericWebApplicationContext@5e2c3d18: startup date [Tue Mar 05 11:44:30 CST 2019]; root of context hierarchy
+2019-03-05 11:44:33,538 - Closing JPA EntityManagerFactory for persistence unit 'default'
+2019-03-05 11:45:16,719 - Starting OrderServiceImplTest on KOTIN with PID 15928 (started by Administrator in E:\workspace\idea\sell)
+2019-03-05 11:45:16,720 - No active profile set, falling back to default profiles: default
+2019-03-05 11:45:16,745 - Refreshing org.springframework.web.context.support.GenericWebApplicationContext@5e2c3d18: startup date [Tue Mar 05 11:45:16 CST 2019]; root of context hierarchy
+2019-03-05 11:45:17,042 - HV000001: Hibernate Validator 5.3.5.Final
+2019-03-05 11:45:18,220 - Building JPA container EntityManagerFactory for persistence unit 'default'
+2019-03-05 11:45:18,240 - HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+2019-03-05 11:45:18,296 - HHH000412: Hibernate Core {5.0.12.Final}
+2019-03-05 11:45:18,297 - HHH000206: hibernate.properties not found
+2019-03-05 11:45:18,299 - HHH000021: Bytecode provider name : javassist
+2019-03-05 11:45:18,331 - HCANN000001: Hibernate Commons Annotations {5.0.1.Final}
+2019-03-05 11:45:18,426 - HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2019-03-05 11:45:18,966 - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2019-03-05 11:45:19,578 - Looking for @ControllerAdvice: org.springframework.web.context.support.GenericWebApplicationContext@5e2c3d18: startup date [Tue Mar 05 11:45:16 CST 2019]; root of context hierarchy
+2019-03-05 11:45:19,634 - Mapped "{[/buyer/product/list]}" onto public com.imooc.sell.vo.ResultVO com.imooc.sell.controller.BuyerProductController.list()
+2019-03-05 11:45:19,635 - Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+2019-03-05 11:45:19,636 - Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+2019-03-05 11:45:19,654 - Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2019-03-05 11:45:19,654 - Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2019-03-05 11:45:19,680 - Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2019-03-05 11:45:19,841 - Started OrderServiceImplTest in 3.489 seconds (JVM running for 4.047)
+2019-03-05 11:45:19,943 - HHH000397: Using ASTQueryTranslatorFactory
+2019-03-05 11:45:20,069 - Closing org.springframework.web.context.support.GenericWebApplicationContext@5e2c3d18: startup date [Tue Mar 05 11:45:16 CST 2019]; root of context hierarchy
+2019-03-05 11:45:20,070 - Closing JPA EntityManagerFactory for persistence unit 'default'
+2019-03-05 12:15:39,521 - Starting SellApplication on KOTIN with PID 8992 (E:\workspace\idea\sell\target\classes started by Administrator in E:\workspace\idea\sell)
+2019-03-05 12:15:39,525 - No active profile set, falling back to default profiles: default
+2019-03-05 12:15:39,568 - Refreshing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@515aebb0: startup date [Tue Mar 05 12:15:39 CST 2019]; root of context hierarchy
+2019-03-05 12:15:39,672 - HV000001: Hibernate Validator 5.3.5.Final
+2019-03-05 12:15:41,278 - Tomcat initialized with port(s): 80 (http)
+2019-03-05 12:15:41,287 - Starting service Tomcat
+2019-03-05 12:15:41,287 - Starting Servlet Engine: Apache Tomcat/8.5.14
+2019-03-05 12:15:41,478 - Initializing Spring embedded WebApplicationContext
+2019-03-05 12:15:41,478 - Root WebApplicationContext: initialization completed in 1910 ms
+2019-03-05 12:15:41,570 - Mapping servlet: 'dispatcherServlet' to [/]
+2019-03-05 12:15:41,573 - Mapping filter: 'characterEncodingFilter' to: [/*]
+2019-03-05 12:15:41,573 - Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+2019-03-05 12:15:41,573 - Mapping filter: 'httpPutFormContentFilter' to: [/*]
+2019-03-05 12:15:41,573 - Mapping filter: 'requestContextFilter' to: [/*]
+2019-03-05 12:15:41,995 - Building JPA container EntityManagerFactory for persistence unit 'default'
+2019-03-05 12:15:42,002 - HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+2019-03-05 12:15:42,040 - HHH000412: Hibernate Core {5.0.12.Final}
+2019-03-05 12:15:42,041 - HHH000206: hibernate.properties not found
+2019-03-05 12:15:42,041 - HHH000021: Bytecode provider name : javassist
+2019-03-05 12:15:42,065 - HCANN000001: Hibernate Commons Annotations {5.0.1.Final}
+2019-03-05 12:15:42,133 - HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2019-03-05 12:15:42,421 - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2019-03-05 12:15:42,733 - Looking for @ControllerAdvice: org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@515aebb0: startup date [Tue Mar 05 12:15:39 CST 2019]; root of context hierarchy
+2019-03-05 12:15:42,768 - Mapped "{[/buyer/product/list]}" onto public com.imooc.sell.vo.ResultVO com.imooc.sell.controller.BuyerProductController.list()
+2019-03-05 12:15:42,770 - Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+2019-03-05 12:15:42,770 - Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+2019-03-05 12:15:42,785 - Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2019-03-05 12:15:42,786 - Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2019-03-05 12:15:42,805 - Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2019-03-05 12:15:43,000 - Registering beans for JMX exposure on startup
+2019-03-05 12:15:43,010 - Initializing ProtocolHandler ["http-nio-80"]
+2019-03-05 12:15:43,062 - Starting ProtocolHandler ["http-nio-80"]
+2019-03-05 12:15:43,088 - Using a shared selector for servlet write/read
+2019-03-05 12:15:43,120 - Tomcat started on port(s): 80 (http)
+2019-03-05 12:15:43,122 - Started SellApplication in 3.881 seconds (JVM running for 4.441)
+2019-03-05 12:18:39,809 - Initializing Spring FrameworkServlet 'dispatcherServlet'
+2019-03-05 12:18:39,809 - FrameworkServlet 'dispatcherServlet': initialization started
+2019-03-05 12:18:39,824 - FrameworkServlet 'dispatcherServlet': initialization completed in 15 ms
+2019-03-05 12:18:39,890 - HHH000397: Using ASTQueryTranslatorFactory
+2019-03-05 12:29:00,397 - Starting SellApplication on KOTIN with PID 11948 (E:\workspace\idea\sell\target\classes started by Administrator in E:\workspace\idea\sell)
+2019-03-05 12:29:00,399 - No active profile set, falling back to default profiles: default
+2019-03-05 12:29:00,429 - Refreshing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@37afeb11: startup date [Tue Mar 05 12:29:00 CST 2019]; root of context hierarchy
+2019-03-05 12:29:00,532 - HV000001: Hibernate Validator 5.3.5.Final
+2019-03-05 12:29:01,240 - Tomcat initialized with port(s): 80 (http)
+2019-03-05 12:29:01,247 - Starting service Tomcat
+2019-03-05 12:29:01,247 - Starting Servlet Engine: Apache Tomcat/8.5.14
+2019-03-05 12:29:01,312 - Initializing Spring embedded WebApplicationContext
+2019-03-05 12:29:01,312 - Root WebApplicationContext: initialization completed in 883 ms
+2019-03-05 12:29:01,402 - Mapping servlet: 'dispatcherServlet' to [/]
+2019-03-05 12:29:01,405 - Mapping filter: 'characterEncodingFilter' to: [/*]
+2019-03-05 12:29:01,405 - Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+2019-03-05 12:29:01,405 - Mapping filter: 'httpPutFormContentFilter' to: [/*]
+2019-03-05 12:29:01,405 - Mapping filter: 'requestContextFilter' to: [/*]
+2019-03-05 12:29:01,751 - Building JPA container EntityManagerFactory for persistence unit 'default'
+2019-03-05 12:29:01,758 - HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+2019-03-05 12:29:01,796 - HHH000412: Hibernate Core {5.0.12.Final}
+2019-03-05 12:29:01,797 - HHH000206: hibernate.properties not found
+2019-03-05 12:29:01,798 - HHH000021: Bytecode provider name : javassist
+2019-03-05 12:29:01,822 - HCANN000001: Hibernate Commons Annotations {5.0.1.Final}
+2019-03-05 12:29:01,889 - HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2019-03-05 12:29:02,178 - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2019-03-05 12:29:02,494 - Looking for @ControllerAdvice: org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@37afeb11: startup date [Tue Mar 05 12:29:00 CST 2019]; root of context hierarchy
+2019-03-05 12:29:02,532 - Mapped "{[/buyer/order/create],methods=[POST]}" onto public com.imooc.sell.vo.ResultVO<java.util.Map<java.lang.String, java.lang.String>> com.imooc.sell.controller.BuyerOrderController.create(com.imooc.form.OrderForm,org.springframework.validation.BindingResult)
+2019-03-05 12:29:02,532 - Mapped "{[/buyer/product/list]}" onto public com.imooc.sell.vo.ResultVO com.imooc.sell.controller.BuyerProductController.list()
+2019-03-05 12:29:02,533 - Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+2019-03-05 12:29:02,534 - Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+2019-03-05 12:29:02,550 - Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2019-03-05 12:29:02,551 - Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2019-03-05 12:29:02,570 - Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2019-03-05 12:29:02,733 - Registering beans for JMX exposure on startup
+2019-03-05 12:29:02,743 - Initializing ProtocolHandler ["http-nio-80"]
+2019-03-05 12:29:02,749 - Starting ProtocolHandler ["http-nio-80"]
+2019-03-05 12:29:02,756 - Using a shared selector for servlet write/read
+2019-03-05 12:29:02,766 - Tomcat started on port(s): 80 (http)
+2019-03-05 12:29:02,768 - Started SellApplication in 2.616 seconds (JVM running for 3.101)
+2019-03-05 12:29:31,124 - Initializing Spring FrameworkServlet 'dispatcherServlet'
+2019-03-05 12:29:31,125 - FrameworkServlet 'dispatcherServlet': initialization started
+2019-03-05 12:29:31,138 - FrameworkServlet 'dispatcherServlet': initialization completed in 13 ms
+2019-03-05 12:51:47,959 - Starting SellApplication on KOTIN with PID 11616 (E:\workspace\idea\sell\target\classes started by Administrator in E:\workspace\idea\sell)
+2019-03-05 12:51:47,961 - No active profile set, falling back to default profiles: default
+2019-03-05 12:51:48,000 - Refreshing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@37afeb11: startup date [Tue Mar 05 12:51:48 CST 2019]; root of context hierarchy
+2019-03-05 12:51:48,127 - HV000001: Hibernate Validator 5.3.5.Final
+2019-03-05 12:51:49,009 - Tomcat initialized with port(s): 80 (http)
+2019-03-05 12:51:49,016 - Starting service Tomcat
+2019-03-05 12:51:49,017 - Starting Servlet Engine: Apache Tomcat/8.5.14
+2019-03-05 12:51:49,083 - Initializing Spring embedded WebApplicationContext
+2019-03-05 12:51:49,083 - Root WebApplicationContext: initialization completed in 1083 ms
+2019-03-05 12:51:49,183 - Mapping servlet: 'dispatcherServlet' to [/]
+2019-03-05 12:51:49,185 - Mapping filter: 'characterEncodingFilter' to: [/*]
+2019-03-05 12:51:49,186 - Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+2019-03-05 12:51:49,186 - Mapping filter: 'httpPutFormContentFilter' to: [/*]
+2019-03-05 12:51:49,186 - Mapping filter: 'requestContextFilter' to: [/*]
+2019-03-05 12:51:49,563 - Building JPA container EntityManagerFactory for persistence unit 'default'
+2019-03-05 12:51:49,571 - HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+2019-03-05 12:51:49,611 - HHH000412: Hibernate Core {5.0.12.Final}
+2019-03-05 12:51:49,612 - HHH000206: hibernate.properties not found
+2019-03-05 12:51:49,612 - HHH000021: Bytecode provider name : javassist
+2019-03-05 12:51:49,640 - HCANN000001: Hibernate Commons Annotations {5.0.1.Final}
+2019-03-05 12:51:49,712 - HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2019-03-05 12:51:50,029 - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2019-03-05 12:51:50,427 - Looking for @ControllerAdvice: org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@37afeb11: startup date [Tue Mar 05 12:51:48 CST 2019]; root of context hierarchy
+2019-03-05 12:51:50,484 - Mapped "{[/buyer/order/create],methods=[POST]}" onto public com.imooc.sell.vo.ResultVO<java.util.Map<java.lang.String, java.lang.String>> com.imooc.sell.controller.BuyerOrderController.create(com.imooc.form.OrderForm,org.springframework.validation.BindingResult)
+2019-03-05 12:51:50,485 - Mapped "{[/buyer/product/list]}" onto public com.imooc.sell.vo.ResultVO com.imooc.sell.controller.BuyerProductController.list()
+2019-03-05 12:51:50,487 - Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+2019-03-05 12:51:50,488 - Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+2019-03-05 12:51:50,511 - Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2019-03-05 12:51:50,511 - Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2019-03-05 12:51:50,536 - Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2019-03-05 12:51:50,714 - Registering beans for JMX exposure on startup
+2019-03-05 12:51:50,725 - Initializing ProtocolHandler ["http-nio-80"]
+2019-03-05 12:51:50,731 - Starting ProtocolHandler ["http-nio-80"]
+2019-03-05 12:51:50,738 - Using a shared selector for servlet write/read
+2019-03-05 12:51:50,749 - Tomcat started on port(s): 80 (http)
+2019-03-05 12:51:50,751 - Started SellApplication in 3.079 seconds (JVM running for 3.564)
+2019-03-05 12:54:29,245 - Starting SellApplication on KOTIN with PID 4000 (E:\workspace\idea\sell\target\classes started by Administrator in E:\workspace\idea\sell)
+2019-03-05 12:54:29,247 - No active profile set, falling back to default profiles: default
+2019-03-05 12:54:29,279 - Refreshing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@37afeb11: startup date [Tue Mar 05 12:54:29 CST 2019]; root of context hierarchy
+2019-03-05 12:54:29,412 - HV000001: Hibernate Validator 5.3.5.Final
+2019-03-05 12:54:30,110 - Tomcat initialized with port(s): 80 (http)
+2019-03-05 12:54:30,116 - Starting service Tomcat
+2019-03-05 12:54:30,117 - Starting Servlet Engine: Apache Tomcat/8.5.14
+2019-03-05 12:54:30,180 - Initializing Spring embedded WebApplicationContext
+2019-03-05 12:54:30,180 - Root WebApplicationContext: initialization completed in 901 ms
+2019-03-05 12:54:30,270 - Mapping servlet: 'dispatcherServlet' to [/]
+2019-03-05 12:54:30,272 - Mapping filter: 'characterEncodingFilter' to: [/*]
+2019-03-05 12:54:30,273 - Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+2019-03-05 12:54:30,273 - Mapping filter: 'httpPutFormContentFilter' to: [/*]
+2019-03-05 12:54:30,273 - Mapping filter: 'requestContextFilter' to: [/*]
+2019-03-05 12:54:30,678 - Building JPA container EntityManagerFactory for persistence unit 'default'
+2019-03-05 12:54:30,685 - HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+2019-03-05 12:54:30,723 - HHH000412: Hibernate Core {5.0.12.Final}
+2019-03-05 12:54:30,724 - HHH000206: hibernate.properties not found
+2019-03-05 12:54:30,725 - HHH000021: Bytecode provider name : javassist
+2019-03-05 12:54:30,750 - HCANN000001: Hibernate Commons Annotations {5.0.1.Final}
+2019-03-05 12:54:30,819 - HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2019-03-05 12:54:31,116 - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2019-03-05 12:54:31,453 - Looking for @ControllerAdvice: org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@37afeb11: startup date [Tue Mar 05 12:54:29 CST 2019]; root of context hierarchy
+2019-03-05 12:54:31,495 - Mapped "{[/buyer/order/create],methods=[GET]}" onto public com.imooc.sell.vo.ResultVO<java.util.Map<java.lang.String, java.lang.String>> com.imooc.sell.controller.BuyerOrderController.create(com.imooc.form.OrderForm,org.springframework.validation.BindingResult)
+2019-03-05 12:54:31,495 - Mapped "{[/buyer/order/list],methods=[POST]}" onto public com.imooc.sell.vo.ResultVO<java.util.List<com.imooc.sell.dto.OrderDTO>> com.imooc.sell.controller.BuyerOrderController.list(java.lang.String,java.lang.Integer,java.lang.Integer)
+2019-03-05 12:54:31,496 - Mapped "{[/buyer/product/list]}" onto public com.imooc.sell.vo.ResultVO com.imooc.sell.controller.BuyerProductController.list()
+2019-03-05 12:54:31,497 - Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+2019-03-05 12:54:31,497 - Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+2019-03-05 12:54:31,515 - Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2019-03-05 12:54:31,515 - Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2019-03-05 12:54:31,535 - Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2019-03-05 12:54:31,701 - Registering beans for JMX exposure on startup
+2019-03-05 12:54:31,711 - Initializing ProtocolHandler ["http-nio-80"]
+2019-03-05 12:54:31,717 - Starting ProtocolHandler ["http-nio-80"]
+2019-03-05 12:54:31,724 - Using a shared selector for servlet write/read
+2019-03-05 12:54:31,734 - Tomcat started on port(s): 80 (http)
+2019-03-05 12:54:31,736 - Started SellApplication in 2.75 seconds (JVM running for 3.239)
+2019-03-05 12:55:03,597 - Initializing Spring FrameworkServlet 'dispatcherServlet'
+2019-03-05 12:55:03,597 - FrameworkServlet 'dispatcherServlet': initialization started
+2019-03-05 12:55:03,612 - FrameworkServlet 'dispatcherServlet': initialization completed in 15 ms
+2019-03-05 12:55:03,954 - Request method 'GET' not supported
+2019-03-05 12:55:34,638 - Starting SellApplication on KOTIN with PID 2900 (E:\workspace\idea\sell\target\classes started by Administrator in E:\workspace\idea\sell)
+2019-03-05 12:55:34,640 - No active profile set, falling back to default profiles: default
+2019-03-05 12:55:34,676 - Refreshing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@37afeb11: startup date [Tue Mar 05 12:55:34 CST 2019]; root of context hierarchy
+2019-03-05 12:55:34,784 - HV000001: Hibernate Validator 5.3.5.Final
+2019-03-05 12:55:35,521 - Tomcat initialized with port(s): 80 (http)
+2019-03-05 12:55:35,528 - Starting service Tomcat
+2019-03-05 12:55:35,528 - Starting Servlet Engine: Apache Tomcat/8.5.14
+2019-03-05 12:55:35,593 - Initializing Spring embedded WebApplicationContext
+2019-03-05 12:55:35,593 - Root WebApplicationContext: initialization completed in 917 ms
+2019-03-05 12:55:35,684 - Mapping servlet: 'dispatcherServlet' to [/]
+2019-03-05 12:55:35,686 - Mapping filter: 'characterEncodingFilter' to: [/*]
+2019-03-05 12:55:35,687 - Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+2019-03-05 12:55:35,687 - Mapping filter: 'httpPutFormContentFilter' to: [/*]
+2019-03-05 12:55:35,687 - Mapping filter: 'requestContextFilter' to: [/*]
+2019-03-05 12:55:36,069 - Building JPA container EntityManagerFactory for persistence unit 'default'
+2019-03-05 12:55:36,076 - HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+2019-03-05 12:55:36,114 - HHH000412: Hibernate Core {5.0.12.Final}
+2019-03-05 12:55:36,115 - HHH000206: hibernate.properties not found
+2019-03-05 12:55:36,116 - HHH000021: Bytecode provider name : javassist
+2019-03-05 12:55:36,140 - HCANN000001: Hibernate Commons Annotations {5.0.1.Final}
+2019-03-05 12:55:36,208 - HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2019-03-05 12:55:36,490 - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2019-03-05 12:55:36,805 - Looking for @ControllerAdvice: org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@37afeb11: startup date [Tue Mar 05 12:55:34 CST 2019]; root of context hierarchy
+2019-03-05 12:55:36,845 - Mapped "{[/buyer/order/create],methods=[POST]}" onto public com.imooc.sell.vo.ResultVO<java.util.Map<java.lang.String, java.lang.String>> com.imooc.sell.controller.BuyerOrderController.create(com.imooc.form.OrderForm,org.springframework.validation.BindingResult)
+2019-03-05 12:55:36,845 - Mapped "{[/buyer/order/list],methods=[GET]}" onto public com.imooc.sell.vo.ResultVO<java.util.List<com.imooc.sell.dto.OrderDTO>> com.imooc.sell.controller.BuyerOrderController.list(java.lang.String,java.lang.Integer,java.lang.Integer)
+2019-03-05 12:55:36,846 - Mapped "{[/buyer/product/list]}" onto public com.imooc.sell.vo.ResultVO com.imooc.sell.controller.BuyerProductController.list()
+2019-03-05 12:55:36,847 - Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+2019-03-05 12:55:36,847 - Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+2019-03-05 12:55:36,864 - Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2019-03-05 12:55:36,864 - Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2019-03-05 12:55:36,884 - Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2019-03-05 12:55:37,058 - Registering beans for JMX exposure on startup
+2019-03-05 12:55:37,068 - Initializing ProtocolHandler ["http-nio-80"]
+2019-03-05 12:55:37,074 - Starting ProtocolHandler ["http-nio-80"]
+2019-03-05 12:55:37,081 - Using a shared selector for servlet write/read
+2019-03-05 12:55:37,091 - Tomcat started on port(s): 80 (http)
+2019-03-05 12:55:37,094 - Started SellApplication in 2.727 seconds (JVM running for 3.208)
+2019-03-05 12:55:40,444 - Initializing Spring FrameworkServlet 'dispatcherServlet'
+2019-03-05 12:55:40,445 - FrameworkServlet 'dispatcherServlet': initialization started
+2019-03-05 12:55:40,459 - FrameworkServlet 'dispatcherServlet': initialization completed in 14 ms
+2019-03-05 12:55:40,490 - HHH000397: Using ASTQueryTranslatorFactory
+2019-03-05 13:04:42,529 - Starting SellApplication on KOTIN with PID 2800 (E:\workspace\idea\sell\target\classes started by Administrator in E:\workspace\idea\sell)
+2019-03-05 13:04:42,531 - No active profile set, falling back to default profiles: default
+2019-03-05 13:04:42,575 - Refreshing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@37afeb11: startup date [Tue Mar 05 13:04:42 CST 2019]; root of context hierarchy
+2019-03-05 13:04:42,684 - HV000001: Hibernate Validator 5.3.5.Final
+2019-03-05 13:04:43,405 - Tomcat initialized with port(s): 80 (http)
+2019-03-05 13:04:43,413 - Starting service Tomcat
+2019-03-05 13:04:43,413 - Starting Servlet Engine: Apache Tomcat/8.5.14
+2019-03-05 13:04:43,480 - Initializing Spring embedded WebApplicationContext
+2019-03-05 13:04:43,480 - Root WebApplicationContext: initialization completed in 905 ms
+2019-03-05 13:04:43,571 - Mapping servlet: 'dispatcherServlet' to [/]
+2019-03-05 13:04:43,574 - Mapping filter: 'characterEncodingFilter' to: [/*]
+2019-03-05 13:04:43,574 - Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+2019-03-05 13:04:43,574 - Mapping filter: 'httpPutFormContentFilter' to: [/*]
+2019-03-05 13:04:43,574 - Mapping filter: 'requestContextFilter' to: [/*]
+2019-03-05 13:04:43,929 - Building JPA container EntityManagerFactory for persistence unit 'default'
+2019-03-05 13:04:43,936 - HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+2019-03-05 13:04:43,975 - HHH000412: Hibernate Core {5.0.12.Final}
+2019-03-05 13:04:43,976 - HHH000206: hibernate.properties not found
+2019-03-05 13:04:43,976 - HHH000021: Bytecode provider name : javassist
+2019-03-05 13:04:44,001 - HCANN000001: Hibernate Commons Annotations {5.0.1.Final}
+2019-03-05 13:04:44,072 - HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2019-03-05 13:04:44,360 - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2019-03-05 13:04:44,680 - Looking for @ControllerAdvice: org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@37afeb11: startup date [Tue Mar 05 13:04:42 CST 2019]; root of context hierarchy
+2019-03-05 13:04:44,720 - Mapped "{[/buyer/order/create],methods=[POST]}" onto public com.imooc.sell.vo.ResultVO<java.util.Map<java.lang.String, java.lang.String>> com.imooc.sell.controller.BuyerOrderController.create(com.imooc.sell.form.OrderForm,org.springframework.validation.BindingResult)
+2019-03-05 13:04:44,720 - Mapped "{[/buyer/order/list],methods=[GET]}" onto public com.imooc.sell.vo.ResultVO<java.util.List<com.imooc.sell.dto.OrderDTO>> com.imooc.sell.controller.BuyerOrderController.list(java.lang.String,java.lang.Integer,java.lang.Integer)
+2019-03-05 13:04:44,721 - Mapped "{[/buyer/product/list]}" onto public com.imooc.sell.vo.ResultVO com.imooc.sell.controller.BuyerProductController.list()
+2019-03-05 13:04:44,722 - Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+2019-03-05 13:04:44,722 - Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+2019-03-05 13:04:44,739 - Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2019-03-05 13:04:44,739 - Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2019-03-05 13:04:44,759 - Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2019-03-05 13:04:44,927 - Registering beans for JMX exposure on startup
+2019-03-05 13:04:44,938 - Initializing ProtocolHandler ["http-nio-80"]
+2019-03-05 13:04:44,944 - Starting ProtocolHandler ["http-nio-80"]
+2019-03-05 13:04:44,951 - Using a shared selector for servlet write/read
+2019-03-05 13:04:44,961 - Tomcat started on port(s): 80 (http)
+2019-03-05 13:04:44,963 - Started SellApplication in 2.683 seconds (JVM running for 3.167)
+2019-03-05 13:04:49,664 - Initializing Spring FrameworkServlet 'dispatcherServlet'
+2019-03-05 13:04:49,664 - FrameworkServlet 'dispatcherServlet': initialization started
+2019-03-05 13:04:49,678 - FrameworkServlet 'dispatcherServlet': initialization completed in 14 ms
+2019-03-05 13:04:49,711 - HHH000397: Using ASTQueryTranslatorFactory
+2019-03-05 13:07:48,328 - Starting SellApplication on KOTIN with PID 1320 (E:\workspace\idea\sell\target\classes started by Administrator in E:\workspace\idea\sell)
+2019-03-05 13:07:48,340 - No active profile set, falling back to default profiles: default
+2019-03-05 13:07:48,366 - Refreshing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@37afeb11: startup date [Tue Mar 05 13:07:48 CST 2019]; root of context hierarchy
+2019-03-05 13:07:48,467 - HV000001: Hibernate Validator 5.3.5.Final
+2019-03-05 13:07:49,208 - Tomcat initialized with port(s): 80 (http)
+2019-03-05 13:07:49,215 - Starting service Tomcat
+2019-03-05 13:07:49,215 - Starting Servlet Engine: Apache Tomcat/8.5.14
+2019-03-05 13:07:49,281 - Initializing Spring embedded WebApplicationContext
+2019-03-05 13:07:49,281 - Root WebApplicationContext: initialization completed in 915 ms
+2019-03-05 13:07:49,372 - Mapping servlet: 'dispatcherServlet' to [/]
+2019-03-05 13:07:49,374 - Mapping filter: 'characterEncodingFilter' to: [/*]
+2019-03-05 13:07:49,375 - Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+2019-03-05 13:07:49,375 - Mapping filter: 'httpPutFormContentFilter' to: [/*]
+2019-03-05 13:07:49,375 - Mapping filter: 'requestContextFilter' to: [/*]
+2019-03-05 13:07:49,739 - Building JPA container EntityManagerFactory for persistence unit 'default'
+2019-03-05 13:07:49,747 - HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+2019-03-05 13:07:49,786 - HHH000412: Hibernate Core {5.0.12.Final}
+2019-03-05 13:07:49,787 - HHH000206: hibernate.properties not found
+2019-03-05 13:07:49,787 - HHH000021: Bytecode provider name : javassist
+2019-03-05 13:07:49,813 - HCANN000001: Hibernate Commons Annotations {5.0.1.Final}
+2019-03-05 13:07:49,886 - HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2019-03-05 13:07:50,176 - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2019-03-05 13:07:50,499 - Looking for @ControllerAdvice: org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@37afeb11: startup date [Tue Mar 05 13:07:48 CST 2019]; root of context hierarchy
+2019-03-05 13:07:50,539 - Mapped "{[/buyer/order/create],methods=[POST]}" onto public com.imooc.sell.vo.ResultVO<java.util.Map<java.lang.String, java.lang.String>> com.imooc.sell.controller.BuyerOrderController.create(com.imooc.sell.form.OrderForm,org.springframework.validation.BindingResult)
+2019-03-05 13:07:50,540 - Mapped "{[/buyer/order/list],methods=[GET]}" onto public com.imooc.sell.vo.ResultVO<java.util.List<com.imooc.sell.dto.OrderDTO>> com.imooc.sell.controller.BuyerOrderController.list(java.lang.String,java.lang.Integer,java.lang.Integer)
+2019-03-05 13:07:50,540 - Mapped "{[/buyer/product/list]}" onto public com.imooc.sell.vo.ResultVO com.imooc.sell.controller.BuyerProductController.list()
+2019-03-05 13:07:50,541 - Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+2019-03-05 13:07:50,542 - Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+2019-03-05 13:07:50,559 - Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2019-03-05 13:07:50,559 - Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2019-03-05 13:07:50,579 - Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2019-03-05 13:07:50,744 - Registering beans for JMX exposure on startup
+2019-03-05 13:07:50,753 - Initializing ProtocolHandler ["http-nio-80"]
+2019-03-05 13:07:50,759 - Starting ProtocolHandler ["http-nio-80"]
+2019-03-05 13:07:50,766 - Using a shared selector for servlet write/read
+2019-03-05 13:07:50,776 - Tomcat started on port(s): 80 (http)
+2019-03-05 13:07:50,779 - Started SellApplication in 2.721 seconds (JVM running for 3.197)
+2019-03-05 13:07:58,595 - Initializing Spring FrameworkServlet 'dispatcherServlet'
+2019-03-05 13:07:58,595 - FrameworkServlet 'dispatcherServlet': initialization started
+2019-03-05 13:07:58,611 - FrameworkServlet 'dispatcherServlet': initialization completed in 16 ms
+2019-03-05 13:07:58,643 - HHH000397: Using ASTQueryTranslatorFactory
+2019-03-05 13:09:33,245 - Starting SellApplication on KOTIN with PID 15324 (E:\workspace\idea\sell\target\classes started by Administrator in E:\workspace\idea\sell)
+2019-03-05 13:09:33,247 - No active profile set, falling back to default profiles: default
+2019-03-05 13:09:33,290 - Refreshing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@37afeb11: startup date [Tue Mar 05 13:09:33 CST 2019]; root of context hierarchy
+2019-03-05 13:09:33,401 - HV000001: Hibernate Validator 5.3.5.Final
+2019-03-05 13:09:34,109 - Tomcat initialized with port(s): 80 (http)
+2019-03-05 13:09:34,115 - Starting service Tomcat
+2019-03-05 13:09:34,116 - Starting Servlet Engine: Apache Tomcat/8.5.14
+2019-03-05 13:09:34,181 - Initializing Spring embedded WebApplicationContext
+2019-03-05 13:09:34,182 - Root WebApplicationContext: initialization completed in 892 ms
+2019-03-05 13:09:34,272 - Mapping servlet: 'dispatcherServlet' to [/]
+2019-03-05 13:09:34,274 - Mapping filter: 'characterEncodingFilter' to: [/*]
+2019-03-05 13:09:34,275 - Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+2019-03-05 13:09:34,275 - Mapping filter: 'httpPutFormContentFilter' to: [/*]
+2019-03-05 13:09:34,275 - Mapping filter: 'requestContextFilter' to: [/*]
+2019-03-05 13:09:34,631 - Building JPA container EntityManagerFactory for persistence unit 'default'
+2019-03-05 13:09:34,638 - HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+2019-03-05 13:09:34,677 - HHH000412: Hibernate Core {5.0.12.Final}
+2019-03-05 13:09:34,678 - HHH000206: hibernate.properties not found
+2019-03-05 13:09:34,679 - HHH000021: Bytecode provider name : javassist
+2019-03-05 13:09:34,705 - HCANN000001: Hibernate Commons Annotations {5.0.1.Final}
+2019-03-05 13:09:34,776 - HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2019-03-05 13:09:35,065 - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2019-03-05 13:09:35,384 - Looking for @ControllerAdvice: org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@37afeb11: startup date [Tue Mar 05 13:09:33 CST 2019]; root of context hierarchy
+2019-03-05 13:09:35,424 - Mapped "{[/buyer/order/create],methods=[POST]}" onto public com.imooc.sell.vo.ResultVO<java.util.Map<java.lang.String, java.lang.String>> com.imooc.sell.controller.BuyerOrderController.create(com.imooc.sell.form.OrderForm,org.springframework.validation.BindingResult)
+2019-03-05 13:09:35,424 - Mapped "{[/buyer/order/list],methods=[GET]}" onto public com.imooc.sell.vo.ResultVO<java.util.List<com.imooc.sell.dto.OrderDTO>> com.imooc.sell.controller.BuyerOrderController.list(java.lang.String,java.lang.Integer,java.lang.Integer)
+2019-03-05 13:09:35,425 - Mapped "{[/buyer/product/list]}" onto public com.imooc.sell.vo.ResultVO com.imooc.sell.controller.BuyerProductController.list()
+2019-03-05 13:09:35,426 - Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+2019-03-05 13:09:35,426 - Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+2019-03-05 13:09:35,443 - Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2019-03-05 13:09:35,443 - Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2019-03-05 13:09:35,463 - Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2019-03-05 13:09:35,637 - Registering beans for JMX exposure on startup
+2019-03-05 13:09:35,645 - Initializing ProtocolHandler ["http-nio-80"]
+2019-03-05 13:09:35,651 - Starting ProtocolHandler ["http-nio-80"]
+2019-03-05 13:09:35,658 - Using a shared selector for servlet write/read
+2019-03-05 13:09:35,668 - Tomcat started on port(s): 80 (http)
+2019-03-05 13:09:35,671 - Started SellApplication in 2.678 seconds (JVM running for 3.15)
+2019-03-05 13:09:43,112 - Initializing Spring FrameworkServlet 'dispatcherServlet'
+2019-03-05 13:09:43,112 - FrameworkServlet 'dispatcherServlet': initialization started
+2019-03-05 13:09:43,126 - FrameworkServlet 'dispatcherServlet': initialization completed in 13 ms
+2019-03-05 13:09:43,160 - HHH000397: Using ASTQueryTranslatorFactory
+2019-03-05 13:12:12,392 - Starting SellApplication on KOTIN with PID 12724 (E:\workspace\idea\sell\target\classes started by Administrator in E:\workspace\idea\sell)
+2019-03-05 13:12:12,401 - No active profile set, falling back to default profiles: default
+2019-03-05 13:12:12,430 - Refreshing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@16293aa2: startup date [Tue Mar 05 13:12:12 CST 2019]; root of context hierarchy
+2019-03-05 13:12:12,540 - HV000001: Hibernate Validator 5.3.5.Final
+2019-03-05 13:12:13,309 - Tomcat initialized with port(s): 80 (http)
+2019-03-05 13:12:13,314 - Starting service Tomcat
+2019-03-05 13:12:13,315 - Starting Servlet Engine: Apache Tomcat/8.5.14
+2019-03-05 13:12:13,386 - Initializing Spring embedded WebApplicationContext
+2019-03-05 13:12:13,386 - Root WebApplicationContext: initialization completed in 956 ms
+2019-03-05 13:12:13,481 - Mapping servlet: 'dispatcherServlet' to [/]
+2019-03-05 13:12:13,483 - Mapping filter: 'characterEncodingFilter' to: [/*]
+2019-03-05 13:12:13,483 - Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+2019-03-05 13:12:13,484 - Mapping filter: 'httpPutFormContentFilter' to: [/*]
+2019-03-05 13:12:13,484 - Mapping filter: 'requestContextFilter' to: [/*]
+2019-03-05 13:12:13,847 - Building JPA container EntityManagerFactory for persistence unit 'default'
+2019-03-05 13:12:13,854 - HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+2019-03-05 13:12:13,894 - HHH000412: Hibernate Core {5.0.12.Final}
+2019-03-05 13:12:13,895 - HHH000206: hibernate.properties not found
+2019-03-05 13:12:13,895 - HHH000021: Bytecode provider name : javassist
+2019-03-05 13:12:13,920 - HCANN000001: Hibernate Commons Annotations {5.0.1.Final}
+2019-03-05 13:12:13,992 - HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2019-03-05 13:12:14,308 - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2019-03-05 13:12:14,645 - Looking for @ControllerAdvice: org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@16293aa2: startup date [Tue Mar 05 13:12:12 CST 2019]; root of context hierarchy
+2019-03-05 13:12:14,688 - Mapped "{[/buyer/order/create],methods=[POST]}" onto public com.imooc.sell.vo.ResultVO<java.util.Map<java.lang.String, java.lang.String>> com.imooc.sell.controller.BuyerOrderController.create(com.imooc.sell.form.OrderForm,org.springframework.validation.BindingResult)
+2019-03-05 13:12:14,688 - Mapped "{[/buyer/order/list],methods=[GET]}" onto public com.imooc.sell.vo.ResultVO<java.util.List<com.imooc.sell.dto.OrderDTO>> com.imooc.sell.controller.BuyerOrderController.list(java.lang.String,java.lang.Integer,java.lang.Integer)
+2019-03-05 13:12:14,689 - Mapped "{[/buyer/product/list]}" onto public com.imooc.sell.vo.ResultVO com.imooc.sell.controller.BuyerProductController.list()
+2019-03-05 13:12:14,690 - Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+2019-03-05 13:12:14,690 - Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+2019-03-05 13:12:14,709 - Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2019-03-05 13:12:14,709 - Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2019-03-05 13:12:14,729 - Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2019-03-05 13:12:14,900 - Registering beans for JMX exposure on startup
+2019-03-05 13:12:14,909 - Initializing ProtocolHandler ["http-nio-80"]
+2019-03-05 13:12:14,915 - Starting ProtocolHandler ["http-nio-80"]
+2019-03-05 13:12:14,923 - Using a shared selector for servlet write/read
+2019-03-05 13:12:14,933 - Tomcat started on port(s): 80 (http)
+2019-03-05 13:12:14,935 - Started SellApplication in 2.792 seconds (JVM running for 3.296)
+2019-03-05 13:12:19,581 - Initializing Spring FrameworkServlet 'dispatcherServlet'
+2019-03-05 13:12:19,581 - FrameworkServlet 'dispatcherServlet': initialization started
+2019-03-05 13:12:19,597 - FrameworkServlet 'dispatcherServlet': initialization completed in 16 ms
+2019-03-05 13:12:19,628 - HHH000397: Using ASTQueryTranslatorFactory
+2019-03-05 13:19:54,520 - Starting SellApplication on KOTIN with PID 16500 (E:\workspace\idea\sell\target\classes started by Administrator in E:\workspace\idea\sell)
+2019-03-05 13:19:54,531 - No active profile set, falling back to default profiles: default
+2019-03-05 13:19:54,561 - Refreshing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@16293aa2: startup date [Tue Mar 05 13:19:54 CST 2019]; root of context hierarchy
+2019-03-05 13:19:54,655 - HV000001: Hibernate Validator 5.3.5.Final
+2019-03-05 13:19:55,373 - Tomcat initialized with port(s): 80 (http)
+2019-03-05 13:19:55,380 - Starting service Tomcat
+2019-03-05 13:19:55,381 - Starting Servlet Engine: Apache Tomcat/8.5.14
+2019-03-05 13:19:55,446 - Initializing Spring embedded WebApplicationContext
+2019-03-05 13:19:55,447 - Root WebApplicationContext: initialization completed in 885 ms
+2019-03-05 13:19:55,539 - Mapping servlet: 'dispatcherServlet' to [/]
+2019-03-05 13:19:55,542 - Mapping filter: 'characterEncodingFilter' to: [/*]
+2019-03-05 13:19:55,543 - Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+2019-03-05 13:19:55,543 - Mapping filter: 'httpPutFormContentFilter' to: [/*]
+2019-03-05 13:19:55,543 - Mapping filter: 'requestContextFilter' to: [/*]
+2019-03-05 13:19:55,899 - Building JPA container EntityManagerFactory for persistence unit 'default'
+2019-03-05 13:19:55,907 - HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+2019-03-05 13:19:55,947 - HHH000412: Hibernate Core {5.0.12.Final}
+2019-03-05 13:19:55,948 - HHH000206: hibernate.properties not found
+2019-03-05 13:19:55,948 - HHH000021: Bytecode provider name : javassist
+2019-03-05 13:19:55,973 - HCANN000001: Hibernate Commons Annotations {5.0.1.Final}
+2019-03-05 13:19:56,043 - HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2019-03-05 13:19:56,342 - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2019-03-05 13:19:56,666 - Looking for @ControllerAdvice: org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@16293aa2: startup date [Tue Mar 05 13:19:54 CST 2019]; root of context hierarchy
+2019-03-05 13:19:56,706 - Mapped "{[/buyer/order/create],methods=[POST]}" onto public com.imooc.sell.vo.ResultVO<java.util.Map<java.lang.String, java.lang.String>> com.imooc.sell.controller.BuyerOrderController.create(com.imooc.sell.form.OrderForm,org.springframework.validation.BindingResult)
+2019-03-05 13:19:56,707 - Mapped "{[/buyer/order/list],methods=[GET]}" onto public com.imooc.sell.vo.ResultVO<java.util.List<com.imooc.sell.dto.OrderDTO>> com.imooc.sell.controller.BuyerOrderController.list(java.lang.String,java.lang.Integer,java.lang.Integer)
+2019-03-05 13:19:56,707 - Mapped "{[/buyer/order/detail],methods=[GET]}" onto public com.imooc.sell.vo.ResultVO<java.util.List<com.imooc.sell.dto.OrderDTO>> com.imooc.sell.controller.BuyerOrderController.detail(java.lang.String,java.lang.String)
+2019-03-05 13:19:56,707 - Mapped "{[/buyer/product/list]}" onto public com.imooc.sell.vo.ResultVO com.imooc.sell.controller.BuyerProductController.list()
+2019-03-05 13:19:56,709 - Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+2019-03-05 13:19:56,709 - Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+2019-03-05 13:19:56,725 - Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2019-03-05 13:19:56,725 - Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2019-03-05 13:19:56,745 - Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2019-03-05 13:19:56,916 - Registering beans for JMX exposure on startup
+2019-03-05 13:19:56,928 - Initializing ProtocolHandler ["http-nio-80"]
+2019-03-05 13:19:56,935 - Starting ProtocolHandler ["http-nio-80"]
+2019-03-05 13:19:56,944 - Using a shared selector for servlet write/read
+2019-03-05 13:19:56,955 - Tomcat started on port(s): 80 (http)
+2019-03-05 13:19:56,958 - Started SellApplication in 2.685 seconds (JVM running for 3.171)
+2019-03-05 13:20:35,726 - Initializing Spring FrameworkServlet 'dispatcherServlet'
+2019-03-05 13:20:35,726 - FrameworkServlet 'dispatcherServlet': initialization started
+2019-03-05 13:20:35,740 - FrameworkServlet 'dispatcherServlet': initialization completed in 14 ms
+2019-03-05 13:21:47,854 - HHH000397: Using ASTQueryTranslatorFactory
+2019-03-05 13:25:40,276 - Starting SellApplication on KOTIN with PID 9712 (E:\workspace\idea\sell\target\classes started by Administrator in E:\workspace\idea\sell)
+2019-03-05 13:25:40,278 - No active profile set, falling back to default profiles: default
+2019-03-05 13:25:40,311 - Refreshing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@16293aa2: startup date [Tue Mar 05 13:25:40 CST 2019]; root of context hierarchy
+2019-03-05 13:25:40,415 - HV000001: Hibernate Validator 5.3.5.Final
+2019-03-05 13:25:41,153 - Tomcat initialized with port(s): 80 (http)
+2019-03-05 13:25:41,160 - Starting service Tomcat
+2019-03-05 13:25:41,161 - Starting Servlet Engine: Apache Tomcat/8.5.14
+2019-03-05 13:25:41,226 - Initializing Spring embedded WebApplicationContext
+2019-03-05 13:25:41,226 - Root WebApplicationContext: initialization completed in 915 ms
+2019-03-05 13:25:41,318 - Mapping servlet: 'dispatcherServlet' to [/]
+2019-03-05 13:25:41,321 - Mapping filter: 'characterEncodingFilter' to: [/*]
+2019-03-05 13:25:41,321 - Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+2019-03-05 13:25:41,321 - Mapping filter: 'httpPutFormContentFilter' to: [/*]
+2019-03-05 13:25:41,321 - Mapping filter: 'requestContextFilter' to: [/*]
+2019-03-05 13:25:41,676 - Building JPA container EntityManagerFactory for persistence unit 'default'
+2019-03-05 13:25:41,684 - HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+2019-03-05 13:25:41,722 - HHH000412: Hibernate Core {5.0.12.Final}
+2019-03-05 13:25:41,723 - HHH000206: hibernate.properties not found
+2019-03-05 13:25:41,723 - HHH000021: Bytecode provider name : javassist
+2019-03-05 13:25:41,747 - HCANN000001: Hibernate Commons Annotations {5.0.1.Final}
+2019-03-05 13:25:41,818 - HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2019-03-05 13:25:42,114 - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2019-03-05 13:25:42,435 - Looking for @ControllerAdvice: org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@16293aa2: startup date [Tue Mar 05 13:25:40 CST 2019]; root of context hierarchy
+2019-03-05 13:25:42,474 - Mapped "{[/buyer/order/create],methods=[POST]}" onto public com.imooc.sell.vo.ResultVO<java.util.Map<java.lang.String, java.lang.String>> com.imooc.sell.controller.BuyerOrderController.create(com.imooc.sell.form.OrderForm,org.springframework.validation.BindingResult)
+2019-03-05 13:25:42,475 - Mapped "{[/buyer/order/list],methods=[GET]}" onto public com.imooc.sell.vo.ResultVO<java.util.List<com.imooc.sell.dto.OrderDTO>> com.imooc.sell.controller.BuyerOrderController.list(java.lang.String,java.lang.Integer,java.lang.Integer)
+2019-03-05 13:25:42,475 - Mapped "{[/buyer/order/cancel],methods=[GET]}" onto public com.imooc.sell.vo.ResultVO com.imooc.sell.controller.BuyerOrderController.cancel(java.lang.String,java.lang.String)
+2019-03-05 13:25:42,475 - Mapped "{[/buyer/order/detail],methods=[GET]}" onto public com.imooc.sell.vo.ResultVO<java.util.List<com.imooc.sell.dto.OrderDTO>> com.imooc.sell.controller.BuyerOrderController.detail(java.lang.String,java.lang.String)
+2019-03-05 13:25:42,476 - Mapped "{[/buyer/product/list]}" onto public com.imooc.sell.vo.ResultVO com.imooc.sell.controller.BuyerProductController.list()
+2019-03-05 13:25:42,477 - Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+2019-03-05 13:25:42,477 - Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+2019-03-05 13:25:42,494 - Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2019-03-05 13:25:42,494 - Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2019-03-05 13:25:42,514 - Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2019-03-05 13:25:42,684 - Registering beans for JMX exposure on startup
+2019-03-05 13:25:42,694 - Initializing ProtocolHandler ["http-nio-80"]
+2019-03-05 13:25:42,699 - Starting ProtocolHandler ["http-nio-80"]
+2019-03-05 13:25:42,706 - Using a shared selector for servlet write/read
+2019-03-05 13:25:42,716 - Tomcat started on port(s): 80 (http)
+2019-03-05 13:25:42,719 - Started SellApplication in 2.703 seconds (JVM running for 3.177)
+2019-03-05 13:25:45,755 - Initializing Spring FrameworkServlet 'dispatcherServlet'
+2019-03-05 13:25:45,756 - FrameworkServlet 'dispatcherServlet': initialization started
+2019-03-05 13:25:45,771 - FrameworkServlet 'dispatcherServlet': initialization completed in 15 ms
+2019-03-05 13:25:45,842 - HHH000397: Using ASTQueryTranslatorFactory

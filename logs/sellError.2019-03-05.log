@@ -1,0 +1,4 @@
+2019-03-05 11:39:29,402 - 【完结订单】 更新订单状态失败，orderMaster=OrderMaster(orderId=1551583261938189369, buyerName=六月底, buyerPhone=110119112, buyerAddress=华彩, buyerOpenid=110119, orderAmount=64.00, orderStatus=1, payStatus=0, createTime=2019-03-03 11:21:02.0, updateTime=2019-03-05 11:38:08.0)
+2019-03-05 11:42:07,991 - 【完结订单】 更新订单状态失败，orderMaster=OrderMaster(orderId=1551583261938189369, buyerName=六月底, buyerPhone=110119112, buyerAddress=华彩, buyerOpenid=110119, orderAmount=64.00, orderStatus=1, payStatus=0, createTime=2019-03-03 11:21:02.0, updateTime=2019-03-05 11:38:08.0)
+2019-03-05 11:43:36,984 - 【完结订单】 订单状态不正确， orderId=1551583261938189369,orderStatus=1
+2019-03-05 11:44:03,035 - 【支付订单】 订单状态不正确， orderId=1551583261938189369,orderStatus=1

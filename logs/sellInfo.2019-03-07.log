@@ -1,0 +1,77 @@
+2019-03-07 20:26:31,552 - Starting SellApplication on KOTIN with PID 6464 (E:\workspace\idea\sell\target\classes started by Administrator in E:\workspace\idea\sell)
+2019-03-07 20:26:31,554 - No active profile set, falling back to default profiles: default
+2019-03-07 20:26:31,812 - Refreshing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@4550bb58: startup date [Thu Mar 07 20:26:31 CST 2019]; root of context hierarchy
+2019-03-07 20:26:32,281 - HV000001: Hibernate Validator 5.3.5.Final
+2019-03-07 20:26:34,734 - Tomcat initialized with port(s): 80 (http)
+2019-03-07 20:26:34,743 - Starting service Tomcat
+2019-03-07 20:26:34,744 - Starting Servlet Engine: Apache Tomcat/8.5.14
+2019-03-07 20:26:34,921 - Initializing Spring embedded WebApplicationContext
+2019-03-07 20:26:34,921 - Root WebApplicationContext: initialization completed in 3109 ms
+2019-03-07 20:26:35,036 - Mapping servlet: 'dispatcherServlet' to [/]
+2019-03-07 20:26:35,055 - Mapping filter: 'characterEncodingFilter' to: [/*]
+2019-03-07 20:26:35,055 - Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+2019-03-07 20:26:35,055 - Mapping filter: 'httpPutFormContentFilter' to: [/*]
+2019-03-07 20:26:35,055 - Mapping filter: 'requestContextFilter' to: [/*]
+2019-03-07 20:26:36,046 - Building JPA container EntityManagerFactory for persistence unit 'default'
+2019-03-07 20:26:36,082 - HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+2019-03-07 20:26:36,564 - HHH000412: Hibernate Core {5.0.12.Final}
+2019-03-07 20:26:36,565 - HHH000206: hibernate.properties not found
+2019-03-07 20:26:36,565 - HHH000021: Bytecode provider name : javassist
+2019-03-07 20:26:36,781 - HCANN000001: Hibernate Commons Annotations {5.0.1.Final}
+2019-03-07 20:26:37,121 - HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2019-03-07 20:26:38,497 - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2019-03-07 20:26:39,872 - Looking for @ControllerAdvice: org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@4550bb58: startup date [Thu Mar 07 20:26:31 CST 2019]; root of context hierarchy
+2019-03-07 20:26:39,962 - Mapped "{[/buyer/order/create],methods=[POST]}" onto public com.imooc.sell.vo.ResultVO<java.util.Map<java.lang.String, java.lang.String>> com.imooc.sell.controller.BuyerOrderController.create(com.imooc.sell.form.OrderForm,org.springframework.validation.BindingResult)
+2019-03-07 20:26:39,963 - Mapped "{[/buyer/order/list],methods=[GET]}" onto public com.imooc.sell.vo.ResultVO<java.util.List<com.imooc.sell.dto.OrderDTO>> com.imooc.sell.controller.BuyerOrderController.list(java.lang.String,java.lang.Integer,java.lang.Integer)
+2019-03-07 20:26:39,963 - Mapped "{[/buyer/order/cancel],methods=[GET]}" onto public com.imooc.sell.vo.ResultVO com.imooc.sell.controller.BuyerOrderController.cancel(java.lang.String,java.lang.String)
+2019-03-07 20:26:39,963 - Mapped "{[/buyer/order/detail],methods=[GET]}" onto public com.imooc.sell.vo.ResultVO<java.util.List<com.imooc.sell.dto.OrderDTO>> com.imooc.sell.controller.BuyerOrderController.detail(java.lang.String,java.lang.String)
+2019-03-07 20:26:39,964 - Mapped "{[/buyer/product/list]}" onto public com.imooc.sell.vo.ResultVO com.imooc.sell.controller.BuyerProductController.list()
+2019-03-07 20:26:39,964 - Mapped "{[/wechat/userInfo],methods=[GET]}" onto public java.lang.String com.imooc.sell.controller.WechatController.userInfo(java.lang.String,java.lang.String)
+2019-03-07 20:26:39,964 - Mapped "{[/wechat/authorize],methods=[GET]}" onto public java.lang.String com.imooc.sell.controller.WechatController.authorize(java.lang.String)
+2019-03-07 20:26:39,965 - Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+2019-03-07 20:26:39,966 - Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+2019-03-07 20:26:39,981 - Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2019-03-07 20:26:39,981 - Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2019-03-07 20:26:40,035 - Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2019-03-07 20:26:40,320 - Registering beans for JMX exposure on startup
+2019-03-07 20:26:40,345 - Initializing ProtocolHandler ["http-nio-80"]
+2019-03-07 20:26:40,405 - Starting ProtocolHandler ["http-nio-80"]
+2019-03-07 20:26:40,413 - Using a shared selector for servlet write/read
+2019-03-07 20:26:40,449 - Tomcat started on port(s): 80 (http)
+2019-03-07 20:26:40,468 - Started SellApplication in 9.902 seconds (JVM running for 11.119)
+2019-03-07 21:15:46,759 - Starting PayServiceImplTest on KOTIN with PID 5952 (started by Administrator in E:\workspace\idea\sell)
+2019-03-07 21:15:46,760 - No active profile set, falling back to default profiles: default
+2019-03-07 21:15:46,817 - Refreshing org.springframework.web.context.support.GenericWebApplicationContext@6b695b06: startup date [Thu Mar 07 21:15:46 CST 2019]; root of context hierarchy
+2019-03-07 21:15:47,211 - HV000001: Hibernate Validator 5.3.5.Final
+2019-03-07 21:15:47,721 - JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+2019-03-07 21:15:48,635 - Building JPA container EntityManagerFactory for persistence unit 'default'
+2019-03-07 21:15:48,720 - HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+2019-03-07 21:15:48,787 - HHH000412: Hibernate Core {5.0.12.Final}
+2019-03-07 21:15:48,788 - HHH000206: hibernate.properties not found
+2019-03-07 21:15:48,789 - HHH000021: Bytecode provider name : javassist
+2019-03-07 21:15:48,852 - HCANN000001: Hibernate Commons Annotations {5.0.1.Final}
+2019-03-07 21:15:49,000 - HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2019-03-07 21:15:49,643 - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2019-03-07 21:15:50,744 - Looking for @ControllerAdvice: org.springframework.web.context.support.GenericWebApplicationContext@6b695b06: startup date [Thu Mar 07 21:15:46 CST 2019]; root of context hierarchy
+2019-03-07 21:15:50,805 - Mapped "{[/buyer/order/create],methods=[POST]}" onto public com.imooc.sell.vo.ResultVO<java.util.Map<java.lang.String, java.lang.String>> com.imooc.sell.controller.BuyerOrderController.create(com.imooc.sell.form.OrderForm,org.springframework.validation.BindingResult)
+2019-03-07 21:15:50,806 - Mapped "{[/buyer/order/list],methods=[GET]}" onto public com.imooc.sell.vo.ResultVO<java.util.List<com.imooc.sell.dto.OrderDTO>> com.imooc.sell.controller.BuyerOrderController.list(java.lang.String,java.lang.Integer,java.lang.Integer)
+2019-03-07 21:15:50,806 - Mapped "{[/buyer/order/detail],methods=[GET]}" onto public com.imooc.sell.vo.ResultVO<java.util.List<com.imooc.sell.dto.OrderDTO>> com.imooc.sell.controller.BuyerOrderController.detail(java.lang.String,java.lang.String)
+2019-03-07 21:15:50,806 - Mapped "{[/buyer/order/cancel],methods=[GET]}" onto public com.imooc.sell.vo.ResultVO com.imooc.sell.controller.BuyerOrderController.cancel(java.lang.String,java.lang.String)
+2019-03-07 21:15:50,806 - Mapped "{[/buyer/product/list]}" onto public com.imooc.sell.vo.ResultVO com.imooc.sell.controller.BuyerProductController.list()
+2019-03-07 21:15:50,807 - Mapped "{[/pay],methods=[GET]}" onto public void com.imooc.sell.controller.PayController.create(java.lang.String,java.lang.String)
+2019-03-07 21:15:50,807 - Mapped "{[/wechat/userInfo],methods=[GET]}" onto public java.lang.String com.imooc.sell.controller.WechatController.userInfo(java.lang.String,java.lang.String)
+2019-03-07 21:15:50,808 - Mapped "{[/wechat/authorize],methods=[GET]}" onto public java.lang.String com.imooc.sell.controller.WechatController.authorize(java.lang.String)
+2019-03-07 21:15:50,808 - Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+2019-03-07 21:15:50,809 - Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+2019-03-07 21:15:50,829 - Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2019-03-07 21:15:50,829 - Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2019-03-07 21:15:50,860 - Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2019-03-07 21:15:51,075 - Started PayServiceImplTest in 4.686 seconds (JVM running for 5.851)
+2019-03-07 21:15:51,354 - HHH000397: Using ASTQueryTranslatorFactory
+2019-03-07 21:15:51,737 - 【微信支付】 request=PayRequest(payTypeEnum=WXPAY_H5, orderId=1551583261938189369, orderAmount=64.0, orderName=微信点餐订单, openid=110119)
+2019-03-07 21:15:52,333 - Closing org.springframework.web.context.support.GenericWebApplicationContext@6b695b06: startup date [Thu Mar 07 21:15:46 CST 2019]; root of context hierarchy
+2019-03-07 21:15:52,336 - Closing JPA EntityManagerFactory for persistence unit 'default'

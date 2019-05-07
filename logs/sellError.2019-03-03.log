@@ -1,0 +1,4 @@
+2019-03-03 11:12:35,546 - Column 'order_amount' cannot be null
+2019-03-03 11:16:22,860 - Column 'order_amount' cannot be null
+2019-03-03 12:29:06,727 - 【取消订单】 订单状态不正确， orderId=1551583261938189369,orderStatus=0
+2019-03-03 12:37:44,087 - 【取消订单】 订单状态不正确， orderId=1551583261938189369,orderStatus=2
